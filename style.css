@@ -1,0 +1,75 @@
+#input1{
+    border-radius: 500px;
+    background-color: tomato;
+    margin-top: 20%;
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+::placeholder{
+    color: green;
+    font-family: cursive;
+    text-align: center;
+}
+body{
+    background-color: rebeccapurple;
+}
+.points{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+#buton{
+    margin-top: 5%;
+}
+#buton2{
+    margin-top: 10%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.points{
+    margin-left: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* .alert.alert-primary{
+    max-height: 50px;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 20%;
+    border-radius: 500px;
+    background-color: green;
+    font-size: large;    
+    font-weight: bolder;
+    color: lightcyan;
+} */
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+.numbers{
+    background-color: steelblue;
+    font-size: 500%;
+    border-radius: 20%;
+}
+.table{
+    margin-left: 27%;
+    margin-top: 2.5%;
+    width: 50%;
+    font-weight: bolder;
+    font-size: 150%;
+    background-color: lightskyblue;
+    color: lightcoral;
+}
+#delete-btn{
+    margin-top: 5%;
+    margin-left: 47%;
+}
